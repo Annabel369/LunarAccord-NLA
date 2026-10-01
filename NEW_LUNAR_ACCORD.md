@@ -73,3 +73,23 @@ The Brazilian Sector holds exclusive administrative jurisdiction over the **Glob
 ## Signatures & Ratification
 
 *Signed on behalf of the High Contracting Parties:*
+
+[ United States of America ]          [ People's Republic of China ]
+Delegation Lead                       Delegation Lead
+
+[ Russian Federation ]               [ Federative Republic of Brazil ]
+Delegation Lead                       Delegation Lead
+
+[ United Nations ]
+                      Secretary-General
+
+Suggested Repository Structure:
+You can place this file in your repository like this:
+
+LunarAccord-NLA/
+├── README.md
+├── LICENSE
+├── docs/
+│   └── NEW_LUNAR_ACCORD.md
+└── scripts/
+    └── lunar_resource_calc.py
