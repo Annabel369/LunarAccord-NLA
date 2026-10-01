@@ -1,0 +1,53 @@
+1. Scripts e Programas Funcionais (/src ou /scripts)
+Podemos criar programas que simulam a logística e o funcionamento operacional das bases lunares:
+
+Calculadora de Recursos Lunares (lunar_resource_calc.py):
+
+Script em Python que calcula a quantidade de oxigênio, água (a partir de extração de gelo nas crateras) e energia solar/Hélio-3 necessária para manter a base de cada setor operando por dia/mês/ano.
+
+Simulador de Telecomunicações e Rotas (orbit_tracker.py / relay_sim.py):
+
+Script para calcular a latência e janelas de comunicação entre a Terra, os satélites na órbita lunar e as bases nos setores do Lado Visível e Lado Oculto.
+
+Monitor de Estufas Agro-Espaciais (Setor Brasileiro - bio_dome_monitor.py):
+
+Programa para simular o controle de temperatura, CO2, iluminação LED e níveis de umidade das estufas de plantas e culturas alimentares.
+
+2. Modelos 3D e Projetos de Engenharia (/cad ou /3d-models)
+Se você gosta de design ou modelagem 3D, pode colocar arquivos para impressão 3D ou visualização:
+
+Arquivos .STL / .OBJ ou .FCStd (FreeCAD):
+
+O modelo do Brasão da Árvore da Vida (insígnia do Setor Brasileiro) pronto para impressão 3D (para criar botões, pins ou placas de uniforme).
+
+Projetos conceituais de módulos de habitat lunar, estufas circulares e cúpulas de proteção contra radiação.
+
+3. Documentação e Protocolos Oficiais (/docs ou /specifications)
+Documentos que detalham as "leis", normas e acordos de convivência das bases:
+
+NEW_LUNAR_ACCORD.md (O Tratado Completo):
+
+Texto jurídico-fictício contendo os artigos da aliança, regras de não-agressão, acordos de livre trânsito entre setores e cooperação de emergência em resgates.
+
+BRAZIL_AGRO_BIOSPHERE.md:
+
+Detalhamento técnico do plano brasileiro: quais espécies de plantas levar, como funciona a reciclagem de água e a produção de combustível orgânico.
+
+SAFETY_PROTOCOLS.md:
+
+Procedimentos de emergência padronizados entre os 5 países para casos de tempestades solares, falhas de despressurização ou vazamento de radiação.
+
+4. Arquivos do Próprio GitHub e Mídia (/.github ou /assets)
+Pasta /assets:
+
+Imagens do mapa lunar dividido por setores.
+
+Logos, bandeiras e insígnias vetorizadas (.SVG / .PNG) dos setores República/Jedi e Império/Sith.
+
+CONTRIBUTING.md:
+
+Guia explicando como desenvolvedores e entusiastas de todo o mundo podem enviar propostas de código, novos cálculos ou ideias via Pull Request.
+
+ISSUE_TEMPLATE.md:
+
+Modelos para propor novos módulos de pesquisa para a Lua.
