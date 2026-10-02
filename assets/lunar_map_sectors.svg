@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="100%" height="100%">
+  <defs>
+    <!-- Background Space Gradient -->
+    <rect id="bg" width="1000" height="600" fill="#050814"/>
+
+    <!-- Lunar Surface Base Gradients -->
+    <radialGradient id="moonNear" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#cfd8dc"/>
+      <stop offset="70%" stop-color="#90a4ae"/>
+      <stop offset="100%" stop-color="#455a64"/>
+    </radialGradient>
+
+    <radialGradient id="moonFar" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#b0bec5"/>
+      <stop offset="70%" stop-color="#78909c"/>
+      <stop offset="100%" stop-color="#37474f"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background Space -->
+  <use href="#bg"/>
+
+  <!-- TITLE HEADER -->
+  <text x="500" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="4">
+    NEW LUNAR ACCORD (NLA) — SECTOR MAP
+  </text>
+  <text x="500" y="70" font-family="Arial, sans-serif" font-size="14" fill="#81d4fa" text-anchor="middle" letter-spacing="2">
+    GEOPOLITICAL ZONING &amp; DIVISION OF THE LUNAR SURFACE
+  </text>
+
+  <!-- ================= LADO VISÍVEL (NEAR SIDE) ================= -->
+  <g transform="translate(260, 310)">
+    <!-- Moon Body -->
+    <circle cx="0" cy="0" r="200" fill="url(#moonNear)" stroke="#ffffff" stroke-width="2"/>
+    <text x="0" y="-215" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">NEAR SIDE (LADO VISÍVEL)</text>
+
+    <!-- Lunar Maria (Simulated Basalt Plains) -->
+    <ellipse cx="-40" cy="-30" rx="60" ry="40" fill="#546e7a" opacity="0.6"/> <!-- Mare Serenitatis -->
+    <ellipse cx="50" cy="-20" rx="55" ry="35" fill="#546e7a" opacity="0.6"/>  <!-- Mare Tranquillitatis -->
+
+    <!-- Sector Division Overlays -->
+    <!-- US Sector (Republic / East - Blue) -->
+    <path d="M 0,-200 A 200,200 0 0,1 200,0 L 0,0 Z" fill="#0288d1" opacity="0.35"/>
+    <stroke stroke="#03a9f4" stroke-width="2"/>
+    <text x="90" y="-80" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#e0f7fa">US SECTOR</text>
+    <text x="90" y="-65" font-family="Arial, sans-serif" font-size="10" fill="#ffffff">(Republic / East)</text>
+
+    <!-- Brazil Sector (Equatorial / Transit - Green) -->
+    <path d="M -200,0 A 200,200 0 0,0 200,0 L 0,0 Z" fill="#2e7d32" opacity="0.4"/>
+    <text x="0" y="90" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#a5d6a7" text-anchor="middle">SECTOR BRAZIL</text>
+    <text x="0" y="110" font-family="Arial, sans-serif" font-size="10" fill="#ffffff" text-anchor="middle">(GLLSI Bio-Domes &amp; Transit)</text>
+  </g>
+
+  <!-- ================= LADO OCULTO (FAR SIDE) ================= -->
+  <g transform="translate(740, 310)">
+    <!-- Moon Body -->
+    <circle cx="0" cy="0" r="200" fill="url(#moonFar)" stroke="#ffffff" stroke-width="2"/>
+    <text x="0" y="-215" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">FAR SIDE (LADO OCULTO)</text>
+
+    <!-- Russia Sector (North Polar - Red/Amber) -->
+    <path d="M 0,-200 A 200,200 0 0,1 141,-141 L 0,0 Z" fill="#c62828" opacity="0.4"/>
+    <text x="50" y="-100" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ffcdd2">RU SECTOR</text>
+    <text x="50" y="-85" font-family="Arial, sans-serif" font-size="10" fill="#ffffff">(North Pole)</text>
+
+    <!-- China Sector (Empire / Far Side South - Orange) -->
+    <path d="M -200,0 A 200,200 0 0,0 0,200 L 0,0 Z" fill="#ef6c00" opacity="0.4"/>
+    <text x="-90" y="90" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ffe0b2">CN SECTOR</text>
+    <text x="-90" y="105" font-family="Arial, sans-serif" font-size="10" fill="#ffffff">(South Pole-Aitken)</text>
+  </g>
+
+  <!-- LEGEND BOX -->
+  <rect x="50" y="520" width="900" height="60" rx="8" fill="#10172a" stroke="#334155" stroke-width="1.5"/>
+  <circle cx="90" cy="550" r="8" fill="#0288d1"/>
+  <text x="105" y="554" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">US (Republic Logistics)</text>
+
+  <circle cx="280" cy="550" r="8" fill="#ef6c00"/>
+  <text x="295" y="554" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">CN (He-3 / Energy)</text>
+
+  <circle cx="450" cy="550" r="8" fill="#c62828"/>
+  <text x="465" y="554" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">RU (Heavy Mining)</text>
+
+  <circle cx="630" cy="550" r="8" fill="#2e7d32"/>
+  <text x="645" y="554" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">BR (Life Support / Agriculture)</text>
+</svg>
